@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# generated databases and datasets (all reproducible via tools/gen_data.py
+# and the tools/ scripts; the README's Findings section has the numbers)
+*.db
+*.csv
+.sqlengine_*/
+demo.db
+bench_report.json
+structure_report.json
+correctness_report.txt
+
+# local tooling, not part of the project
+.claude/
